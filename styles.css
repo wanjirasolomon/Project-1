@@ -1,0 +1,213 @@
+body {
+    font-family:'Inter',sans-serif;
+    width: 100%;
+}
+
+.navbar {
+   background-color:whitesmoke;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   text-align: center;
+   align-items: center;
+}
+.navbar div {
+   margin: 0.5%;
+   margin-left: 0%;
+}
+button  {
+   background-color:navy;
+   color: white;
+   padding: 2%;
+}
+.logo {
+   color: navy;
+}
+a {
+   font-style:none;
+}
+.content {
+   display: flex;
+   justify-content: space-between;
+   margin-left: 5%;
+   margin-right: 5%;
+}
+.container {
+   background-color:white;
+   align-items: center;
+   display:flex;
+   /* text-align: center; */
+   /* justify-content:space-around; */
+   margin-right: 15%;
+   margin-left: 15%;
+   margin: auto;
+   padding:2%;
+   height: 100px;
+   width: 50%;
+   border: 0;
+}
+.first,.price,.properties {
+   height: 50px;
+   width: 100px;
+   background-color:white;
+   color:#2549D3;
+   margin: 10px;
+   display: flex;
+   text-align: center;
+   align-items: center;
+   justify-content: space-around;
+   margin-left: auto;
+}
+.mono {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   text-align:center;
+}
+.content .text {
+   display: flex;
+   flex-direction: column;
+   margin-left: 4rem;
+   margin-top: 3rem;
+   flex: 1;
+}
+.content button {
+   width:10%;
+}
+
+.text h1 {
+   font-size: 2rem;
+   font-weight:bold;
+   margin-top: 1rem;
+   margin-bottom: 0;
+}
+
+.text--  {
+   font-size: 2rem;
+   font-weight:0;
+   padding: 20px;
+   margin: auto;
+   color: #2549D3;
+   /* align-items: center; */
+   /* justify-content: center; */
+   text-align: center;
+}
+/* .container text {
+   display: table-row;
+   flex-direction: row;
+}  */
+/* .first {
+   /* display: flex;
+   flex-direction:row;
+   align-items: center;
+   text-align: center;
+} */
+.object {
+   display:block;
+   /* flex-direction: row; */
+   margin: 30px;
+   height: 800px;
+}
+.work {
+   display: flex;
+   height: 600px;
+   align-items: center;
+}
+.find,.official,.pays {
+   background-color: white;
+   margin: 10px;
+   height: 500px;
+   align-items: center;
+   justify-content: center;
+   padding: 20px;
+}
+.choose {
+   display: flex;
+   flex-direction: row;
+   height: 400px;
+   margin: 30px;
+
+}
+.choose .main {
+   font-size: 30px;
+   display:inline-block;
+   margin: 30px;
+   color: #2549D3;
+
+}
+.main >.right {
+   position:absolute;
+   flex:column;
+} 
+.properties {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   text-align: center;
+
+}
+.features {
+   display:block;
+
+}
+.past {
+   display: flex;
+}
+.past img {
+   width:100%;
+   object-fit: contain;
+   padding: 20px;
+   margin: 20px;   
+}
+.rexoma,.image-2 ,.palace {
+   margin:10px;
+
+}
+.customers .text2 {
+   /* display: flex; */
+   flex-direction: row;
+   text-align: center;
+   color: #2549D3;
+   justify-content: center;
+   /* align-items: center; */
+}
+.saying {
+    display: flex;
+    text-align: center; 
+    flex-direction: row; 
+    justify-content: space-around; 
+    margin-left: 30px;
+    margin-right: 30px;                        
+}
+.alex {
+   border: 5px;
+   box-shadow: 5px;
+   background-color: whitesmoke;
+   text-align: center;
+   margin-right: 10px;
+   margin-left: 10px;
+   margin-top: 10px;
+   margin-bottom: 10px;
+}
+.view- {
+   margin-left: 90%;
+   /* margin-right: 70px; */
+}
+.end {
+   display: flex;
+   align-items: center;
+   background-color: #2549D3;
+   height: 500px;
+}
+.walk {
+   /* border: 5px; */
+   /* box-shadow: 5px; */
+   color: white;
+   text-align: center;
+   margin-right: 10px;
+   margin-left: 10px;
+   height: 200px;
+   padding: 10%;
+   margin-top: 40px;
+   margin-bottom: 70px;   
+}
