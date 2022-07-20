@@ -1,0 +1,237 @@
+body {
+    padding: 0;
+    font-family: 'Inter',sans-serif;
+}
+.navbar {
+    background-color:whitesmoke;
+    display: flex;
+    justify-content: space-between;   
+ }
+ .navs  {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+    flex-direction: row;
+    margin-right: 3%;
+    max-width: fit-content;
+ }
+ .navs ul {
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+ }
+ .navs ul li {
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 2rem;
+    list-style: none;
+    text-align: center;
+    text-decoration: none;
+ }
+
+ .navs ul li a {
+    color: #2549D3;
+ }
+
+.text button {
+    padding: 0.5rem 1rem;
+    background: #2549D3;
+    outline: none;
+    border: none;
+    color: #fff;
+    font-size: 1rem;
+    border-radius: 6px;
+}
+
+ .started {
+    margin: auto;
+    margin-right: 2rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+ }
+
+ .started button {
+    padding: 0.5rem 1rem;
+    background: #2549D3;
+    outline: none;
+    border: none;
+    color: #fff;
+    font-size: 1rem;
+    border-radius: 6px;
+ }
+ .content {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10%;
+    margin-left: 7%;
+ }
+ .container {
+    display: flex;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+    /* margin-left: 30%;
+    margin-right: 40px; */
+    justify-content: space-between;
+ }
+
+ .containers {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    background: whitesmoke;
+    border-bottom: 1px solid gray;
+    border-radius: 6px;
+    margin: auto;
+    margin-top: -2rem;
+ }
+ .duplex {
+    box-sizing: border-box;
+
+ }
+
+ .duplex1 {
+    margin-left: 4rem;
+ }
+
+ .duplex2 {
+    margin-right: 4rem;
+ }
+
+ .product {
+    align-items: center;
+    text-align: center;
+ }
+.secure {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin: auto;
+    gap: 3rem;
+}
+.locate{
+    padding: 5%;
+    border: 1px solid blue;
+    align-items: center;
+    text-align: center;
+    width: 360px;
+    border-radius: 8px;
+    background: whitesmoke;
+}
+ 
+.class {
+    display: flex;
+}
+.trust {
+    align-items: center;
+    margin-left: 3rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.texts {
+    justify-content: flex-start;
+    gap: 6rem;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.text1 {
+    margin-left: 0;
+    justify-content: flex-start;
+}
+.feature {
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+}
+.lekki {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    justify-content: center;
+    gap: 4rem;
+}
+
+.phase {
+    justify-content: flex-start;
+}
+.customers {
+    align-items: center;
+    text-align: center;
+}
+
+.view {
+    margin: auto;
+    margin-left: 85%;
+    margin-right: 2rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+ }
+
+ .view button {
+    padding: 0.5rem 1rem;
+    background: #2549D3;
+    outline: none;
+    border: none;
+    color: #fff;
+    font-size: 1rem;
+    border-radius: 6px;
+ }
+
+.saying {
+    display: flex;
+    width: 70%;
+    gap: 4rem;
+    margin: auto;
+}
+.alex {
+    align-items: center;
+    text-align: center;
+    width: 380px;
+}
+.view- {
+    margin: auto;
+    margin-left: 85%;
+    margin-right: 2rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+ }
+
+ .view- button {
+    padding: 0.5rem 1rem;
+    background: #2549D3;
+    outline: none;
+    border: none;
+    color: #fff;
+    font-size: 1rem;
+    border-radius: 6px;
+ }
+.end {
+    display: flex;
+    background: #0F298b;
+    margin-top: 4rem;
+    margin-bottom: 100px;
+    height: 300px;
+    color: #fff;
+    gap: 3rem;
+}
+.policy {
+    float: left;
+    width: 30%;
+}
+
+.policy1 {
+    margin-left: 4rem;
+}
+
